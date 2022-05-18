@@ -20,7 +20,7 @@ const IndexPage:FC = () => {
             <button
                onClick={()=> dispatch(incrementByAmount(Number(incrementAmount)))}
             >
-
+               Increment by
             </button>
          </div>
          <div>
