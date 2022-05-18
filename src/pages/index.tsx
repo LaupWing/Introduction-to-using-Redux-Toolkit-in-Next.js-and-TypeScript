@@ -3,7 +3,7 @@ import { useAppDispatch, useAppSelector } from '../app/hook'
 import { decrement, increment, incrementByAmount, selectCount } from '../features/counter/counterSlice'
 
 const IndexPage:FC = () => {
-   const dispatch = useAppDispatch
+   const dispatch = useAppDispatch()
    const count = useAppSelector(selectCount)
    const [incrementAmount, setIncrementAmount] = useState<number>(0);
 
