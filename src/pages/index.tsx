@@ -1,5 +1,4 @@
 import React, { FC, useState } from 'react'
-import { useDispatch } from 'react-redux'
 import { useAppDispatch, useAppSelector } from '../app/hook'
 import { decrement, increment, incrementByAmount, selectCount } from '../features/counter/counterSlice'
 
